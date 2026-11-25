@@ -1,0 +1,10 @@
+# Local handover notes
+/PROJECT_STATUS.md
+
+# Generated deployment artifacts and local verification files
+/dist/
+/netlify-deploy.zip
+/.local/
+/__pycache__/
+**/__pycache__/
+/.netlify/

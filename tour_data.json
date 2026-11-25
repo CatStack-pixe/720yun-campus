@@ -1,0 +1,3121 @@
+{
+ "title": "江苏电子信息职业学院",
+ "subtitle": "720° 校园全景漫游",
+ "source": "https://www.720yun.com/t/43vkcl1qgdy?scene_id=59712277",
+ "author": "落墨良人",
+ "firstScene": "59712277",
+ "sceneCount": 44,
+ "order": [
+  "59712277",
+  "61225846",
+  "59843592",
+  "59843593",
+  "59712254",
+  "59712239",
+  "59712279",
+  "59712251",
+  "59712248",
+  "59712253",
+  "59712240",
+  "59712255",
+  "59712278",
+  "59712280",
+  "59712249",
+  "59712260",
+  "59712274",
+  "59712243",
+  "59712246",
+  "59712252",
+  "59712256",
+  "59712258",
+  "59712238",
+  "61225847",
+  "59712259",
+  "59712261",
+  "59712262",
+  "59712271",
+  "59712263",
+  "59712272",
+  "59712264",
+  "59712265",
+  "59712266",
+  "59712267",
+  "59712268",
+  "59712269",
+  "59712281",
+  "59712282",
+  "59712283",
+  "59712284",
+  "59712285",
+  "59712286",
+  "59712276",
+  "59712289"
+ ],
+ "scenes": {
+  "59712277": {
+   "id": "59712277",
+   "panoId": "34496034",
+   "name": "校门",
+   "index": 1,
+   "thumb": "thumbs/34496034.jpg",
+   "faces": [
+    "images/34496034/f.jpg",
+    "images/34496034/r.jpg",
+    "images/34496034/b.jpg",
+    "images/34496034/l.jpg",
+    "images/34496034/u.jpg",
+    "images/34496034/d.jpg"
+   ],
+   "yaw": 0.237,
+   "pitch": -22.681,
+   "mfov": 72.367,
+   "hotSpots": [
+    {
+     "pitch": -3.959,
+     "yaw": -14.176,
+     "type": "scene",
+     "sceneId": "59712238",
+     "text": "博学路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.127,
+     "yaw": 39.534,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -0.125,
+     "yaw": 26.512,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.509,
+     "yaw": 20.917,
+     "type": "scene",
+     "sceneId": "59712251",
+     "text": "立业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.656,
+     "yaw": 31.631,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.903,
+     "yaw": 26.077,
+     "type": "scene",
+     "sceneId": "59712248",
+     "text": "敬业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.278,
+     "yaw": -31.548,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.569,
+     "yaw": -24.139,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.288,
+     "yaw": -26.454,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.228,
+     "yaw": -20.013,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.717,
+     "yaw": -47.981,
+     "type": "scene",
+     "sceneId": "59712243",
+     "text": "西湖",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.149,
+     "yaw": -44.1,
+     "type": "scene",
+     "sceneId": "59712246",
+     "text": "海棠园",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 14.207,
+     "yaw": -0.797,
+     "type": "scene",
+     "sceneId": "59712249",
+     "text": "乐业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.276,
+     "yaw": 48.772,
+     "type": "scene",
+     "sceneId": "59712252",
+     "text": "音乐广场",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 11.285,
+     "yaw": 58.175,
+     "type": "scene",
+     "sceneId": "59712256",
+     "text": "体育场",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.206,
+     "yaw": 40.455,
+     "type": "scene",
+     "sceneId": "59712258",
+     "text": "体育馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.298,
+     "yaw": 54.669,
+     "type": "scene",
+     "sceneId": "59712259",
+     "text": "文达路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.297,
+     "yaw": -71.806,
+     "type": "scene",
+     "sceneId": "59712261",
+     "text": "文汇路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.581,
+     "yaw": -68.353,
+     "type": "scene",
+     "sceneId": "59712260",
+     "text": "文汇楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.2,
+     "yaw": -66.918,
+     "type": "scene",
+     "sceneId": "59712262",
+     "text": "文津路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.336,
+     "yaw": -62.421,
+     "type": "scene",
+     "sceneId": "59712263",
+     "text": "文津桥",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.354,
+     "yaw": -2.61,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.762,
+     "yaw": -1.013,
+     "type": "scene",
+     "sceneId": "59843593",
+     "text": "立德树人石刻",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "61225846": {
+   "id": "61225846",
+   "panoId": "35133407",
+   "name": "中心广场",
+   "index": 2,
+   "thumb": "thumbs/35133407.jpg",
+   "faces": [
+    "images/35133407/f.jpg",
+    "images/35133407/r.jpg",
+    "images/35133407/b.jpg",
+    "images/35133407/l.jpg",
+    "images/35133407/u.jpg",
+    "images/35133407/d.jpg"
+   ],
+   "yaw": 6.682,
+   "pitch": -14.938,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -11.244,
+     "yaw": -172.994,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.101,
+     "yaw": -100.989,
+     "type": "scene",
+     "sceneId": "59712262",
+     "text": "文津路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.801,
+     "yaw": -71.525,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.745,
+     "yaw": -40.655,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.601,
+     "yaw": -31.864,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.535,
+     "yaw": -23.063,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.48,
+     "yaw": 5.867,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.803,
+     "yaw": 68.686,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.845,
+     "yaw": 53.256,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.398,
+     "yaw": 46.547,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.57,
+     "yaw": 40.658,
+     "type": "scene",
+     "sceneId": "59712251",
+     "text": "立业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.89,
+     "yaw": 33.112,
+     "type": "scene",
+     "sceneId": "59712248",
+     "text": "敬业楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59843592": {
+   "id": "59843592",
+   "panoId": "34551060",
+   "name": "图书馆",
+   "index": 3,
+   "thumb": "thumbs/34551060.jpg",
+   "faces": [
+    "images/34551060/f.jpg",
+    "images/34551060/r.jpg",
+    "images/34551060/b.jpg",
+    "images/34551060/l.jpg",
+    "images/34551060/u.jpg",
+    "images/34551060/d.jpg"
+   ],
+   "yaw": -2.679,
+   "pitch": 1.891,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -12.427,
+     "yaw": -0.569,
+     "type": "scene",
+     "sceneId": "59843593",
+     "text": "立德树人石刻",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.886,
+     "yaw": 48.686,
+     "type": "scene",
+     "sceneId": "59712248",
+     "text": "敬业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.584,
+     "yaw": 65.85,
+     "type": "scene",
+     "sceneId": "59712251",
+     "text": "立业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.183,
+     "yaw": 87.802,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.26,
+     "yaw": 120.092,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.005,
+     "yaw": 151.656,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.315,
+     "yaw": 178.313,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.567,
+     "yaw": -133.551,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -10.226,
+     "yaw": -119.91,
+     "type": "scene",
+     "sceneId": "59712238",
+     "text": "博学路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.438,
+     "yaw": -154.008,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.104,
+     "yaw": -83.15,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.156,
+     "yaw": -57.616,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59843593": {
+   "id": "59843593",
+   "panoId": "34551072",
+   "name": "立德树人石刻",
+   "index": 4,
+   "thumb": "thumbs/34551072.jpg",
+   "faces": [
+    "images/34551072/f.jpg",
+    "images/34551072/r.jpg",
+    "images/34551072/b.jpg",
+    "images/34551072/l.jpg",
+    "images/34551072/u.jpg",
+    "images/34551072/d.jpg"
+   ],
+   "yaw": -2.173,
+   "pitch": -21.471,
+   "mfov": 70.0,
+   "hotSpots": [
+    {
+     "pitch": 14.353,
+     "yaw": 0.636,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -0.362,
+     "yaw": 178.282,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.757,
+     "yaw": 151.869,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 9.62,
+     "yaw": 118.647,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.856,
+     "yaw": 87.851,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.661,
+     "yaw": 65.768,
+     "type": "scene",
+     "sceneId": "59712251",
+     "text": "立业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.765,
+     "yaw": 46.98,
+     "type": "scene",
+     "sceneId": "59712248",
+     "text": "敬业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -8.895,
+     "yaw": -143.602,
+     "type": "scene",
+     "sceneId": "59712238",
+     "text": "博学路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.496,
+     "yaw": -154.396,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.289,
+     "yaw": -132.174,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.59,
+     "yaw": -82.524,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.035,
+     "yaw": -59.039,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712254": {
+   "id": "59712254",
+   "panoId": "34496011",
+   "name": "勤政楼",
+   "index": 5,
+   "thumb": "thumbs/34496011.jpg",
+   "faces": [
+    "images/34496011/f.jpg",
+    "images/34496011/r.jpg",
+    "images/34496011/b.jpg",
+    "images/34496011/l.jpg",
+    "images/34496011/u.jpg",
+    "images/34496011/d.jpg"
+   ],
+   "yaw": 33.604,
+   "pitch": 2.044,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 8.113,
+     "yaw": -6.786,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 12.285,
+     "yaw": -50.168,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 12.201,
+     "yaw": -135.26,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 13.131,
+     "yaw": -102.679,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.702,
+     "yaw": 162.418,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712239": {
+   "id": "59712239",
+   "panoId": "34495996",
+   "name": "创业楼",
+   "index": 6,
+   "thumb": "thumbs/34495996.jpg",
+   "faces": [
+    "images/34495996/f.jpg",
+    "images/34495996/r.jpg",
+    "images/34495996/b.jpg",
+    "images/34495996/l.jpg",
+    "images/34495996/u.jpg",
+    "images/34495996/d.jpg"
+   ],
+   "yaw": 178.671,
+   "pitch": -6.264,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 6.714,
+     "yaw": -110.427,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.138,
+     "yaw": 128.467,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 11.18,
+     "yaw": 116.496,
+     "type": "scene",
+     "sceneId": "59712251",
+     "text": "立业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 13.239,
+     "yaw": 66.192,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.199,
+     "yaw": 53.218,
+     "type": "scene",
+     "sceneId": "59843593",
+     "text": "立德树人石刻",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 9.266,
+     "yaw": -20.405,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.29,
+     "yaw": -46.426,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.868,
+     "yaw": -82.246,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.62,
+     "yaw": -40.571,
+     "type": "scene",
+     "sceneId": "59712238",
+     "text": "博学路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.452,
+     "yaw": 6.443,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.795,
+     "yaw": 24.674,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712279": {
+   "id": "59712279",
+   "panoId": "34496036",
+   "name": "兴业楼",
+   "index": 7,
+   "thumb": "thumbs/34496036.jpg",
+   "faces": [
+    "images/34496036/f.jpg",
+    "images/34496036/r.jpg",
+    "images/34496036/b.jpg",
+    "images/34496036/l.jpg",
+    "images/34496036/u.jpg",
+    "images/34496036/d.jpg"
+   ],
+   "yaw": 3.791,
+   "pitch": -3.805,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 6.232,
+     "yaw": -35.839,
+     "type": "scene",
+     "sceneId": "59712251",
+     "text": "立业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.565,
+     "yaw": -53.153,
+     "type": "scene",
+     "sceneId": "59712248",
+     "text": "敬业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.21,
+     "yaw": 57.385,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.993,
+     "yaw": 83.958,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.9,
+     "yaw": 103.13,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.033,
+     "yaw": 131.908,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.361,
+     "yaw": 148.753,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 14.264,
+     "yaw": -113.829,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712251": {
+   "id": "59712251",
+   "panoId": "34496008",
+   "name": "立业楼",
+   "index": 8,
+   "thumb": "thumbs/34496008.jpg",
+   "faces": [
+    "images/34496008/f.jpg",
+    "images/34496008/r.jpg",
+    "images/34496008/b.jpg",
+    "images/34496008/l.jpg",
+    "images/34496008/u.jpg",
+    "images/34496008/d.jpg"
+   ],
+   "yaw": -90.789,
+   "pitch": -9.79,
+   "mfov": 94.533,
+   "hotSpots": [
+    {
+     "pitch": 3.854,
+     "yaw": -162.197,
+     "type": "scene",
+     "sceneId": "59712280",
+     "text": "修业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.112,
+     "yaw": -33.955,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.221,
+     "yaw": -4.352,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.527,
+     "yaw": 4.541,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.891,
+     "yaw": 15.975,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.982,
+     "yaw": 40.288,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.059,
+     "yaw": 55.194,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -3.561,
+     "yaw": 88.614,
+     "type": "scene",
+     "sceneId": "59843593",
+     "text": "立德树人石刻",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 16.035,
+     "yaw": 138.083,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712248": {
+   "id": "59712248",
+   "panoId": "34496005",
+   "name": "敬业楼",
+   "index": 9,
+   "thumb": "thumbs/34496005.jpg",
+   "faces": [
+    "images/34496005/f.jpg",
+    "images/34496005/r.jpg",
+    "images/34496005/b.jpg",
+    "images/34496005/l.jpg",
+    "images/34496005/u.jpg",
+    "images/34496005/d.jpg"
+   ],
+   "yaw": 7.245,
+   "pitch": -10.062,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -2.222,
+     "yaw": 110.819,
+     "type": "scene",
+     "sceneId": "59712280",
+     "text": "修业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.883,
+     "yaw": 113.441,
+     "type": "scene",
+     "sceneId": "59712249",
+     "text": "乐业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 13.24,
+     "yaw": 84.959,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 9.106,
+     "yaw": -40.905,
+     "type": "scene",
+     "sceneId": "59712256",
+     "text": "体育场",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.022,
+     "yaw": -95.531,
+     "type": "scene",
+     "sceneId": "59712258",
+     "text": "体育馆",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712253": {
+   "id": "59712253",
+   "panoId": "34496010",
+   "name": "明学楼",
+   "index": 10,
+   "thumb": "thumbs/34496010.jpg",
+   "faces": [
+    "images/34496010/f.jpg",
+    "images/34496010/r.jpg",
+    "images/34496010/b.jpg",
+    "images/34496010/l.jpg",
+    "images/34496010/u.jpg",
+    "images/34496010/d.jpg"
+   ],
+   "yaw": 183.803,
+   "pitch": -9.775,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -7.105,
+     "yaw": 60.144,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.541,
+     "yaw": -79.416,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -18.939,
+     "yaw": -99.836,
+     "type": "scene",
+     "sceneId": "59712238",
+     "text": "博学路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.466,
+     "yaw": -117.845,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.435,
+     "yaw": -5.697,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.647,
+     "yaw": -31.668,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.552,
+     "yaw": 169.698,
+     "type": "scene",
+     "sceneId": "59712246",
+     "text": "海棠园",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712240": {
+   "id": "59712240",
+   "panoId": "34495997",
+   "name": "德学楼",
+   "index": 11,
+   "thumb": "thumbs/34495997.jpg",
+   "faces": [
+    "images/34495997/f.jpg",
+    "images/34495997/r.jpg",
+    "images/34495997/b.jpg",
+    "images/34495997/l.jpg",
+    "images/34495997/u.jpg",
+    "images/34495997/d.jpg"
+   ],
+   "yaw": 80.864,
+   "pitch": -24.427,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 1.588,
+     "yaw": 64.278,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.185,
+     "yaw": 35.89,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.922,
+     "yaw": 1.31,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.471,
+     "yaw": -26.361,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -27.048,
+     "yaw": -137.968,
+     "type": "scene",
+     "sceneId": "59712238",
+     "text": "博学路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.577,
+     "yaw": -101.081,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.377,
+     "yaw": -165.962,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.199,
+     "yaw": -147.088,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712255": {
+   "id": "59712255",
+   "panoId": "34496012",
+   "name": "尚学楼",
+   "index": 12,
+   "thumb": "thumbs/34496012.jpg",
+   "faces": [
+    "images/34496012/f.jpg",
+    "images/34496012/r.jpg",
+    "images/34496012/b.jpg",
+    "images/34496012/l.jpg",
+    "images/34496012/u.jpg",
+    "images/34496012/d.jpg"
+   ],
+   "yaw": -249.192,
+   "pitch": -19.752,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 2.663,
+     "yaw": 125.232,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.572,
+     "yaw": -59.272,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 9.093,
+     "yaw": -175.463,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.614,
+     "yaw": -68.594,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712278": {
+   "id": "59712278",
+   "panoId": "34496035",
+   "name": "行学楼",
+   "index": 13,
+   "thumb": "thumbs/34496035.jpg",
+   "faces": [
+    "images/34496035/f.jpg",
+    "images/34496035/r.jpg",
+    "images/34496035/b.jpg",
+    "images/34496035/l.jpg",
+    "images/34496035/u.jpg",
+    "images/34496035/d.jpg"
+   ],
+   "yaw": 91.81,
+   "pitch": -8.251,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 8.47,
+     "yaw": 39.518,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -3.494,
+     "yaw": 1.207,
+     "type": "scene",
+     "sceneId": "59712238",
+     "text": "博学路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.763,
+     "yaw": -4.124,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 15.198,
+     "yaw": -84.699,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -17.434,
+     "yaw": 172.97,
+     "type": "scene",
+     "sceneId": "59712271",
+     "text": "文信路",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712280": {
+   "id": "59712280",
+   "panoId": "34496037",
+   "name": "修业楼",
+   "index": 14,
+   "thumb": "thumbs/34496037.jpg",
+   "faces": [
+    "images/34496037/f.jpg",
+    "images/34496037/r.jpg",
+    "images/34496037/b.jpg",
+    "images/34496037/l.jpg",
+    "images/34496037/u.jpg",
+    "images/34496037/d.jpg"
+   ],
+   "yaw": -6.567,
+   "pitch": -18.824,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 17.391,
+     "yaw": -120.879,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 11.671,
+     "yaw": 94.771,
+     "type": "scene",
+     "sceneId": "59712280",
+     "text": "修业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 9.446,
+     "yaw": 65.963,
+     "type": "scene",
+     "sceneId": "59712258",
+     "text": "体育馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.672,
+     "yaw": -73.715,
+     "type": "scene",
+     "sceneId": "59712249",
+     "text": "乐业楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712249": {
+   "id": "59712249",
+   "panoId": "34496006",
+   "name": "乐业楼",
+   "index": 15,
+   "thumb": "thumbs/34496006.jpg",
+   "faces": [
+    "images/34496006/f.jpg",
+    "images/34496006/r.jpg",
+    "images/34496006/b.jpg",
+    "images/34496006/l.jpg",
+    "images/34496006/u.jpg",
+    "images/34496006/d.jpg"
+   ],
+   "yaw": 0.674,
+   "pitch": -8.506,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 26.998,
+     "yaw": -179.521,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.836,
+     "yaw": -122.486,
+     "type": "scene",
+     "sceneId": "59712271",
+     "text": "文信路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.537,
+     "yaw": 96.709,
+     "type": "scene",
+     "sceneId": "59712280",
+     "text": "修业楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712260": {
+   "id": "59712260",
+   "panoId": "34496017",
+   "name": "文汇楼",
+   "index": 16,
+   "thumb": "thumbs/34496017.jpg",
+   "faces": [
+    "images/34496017/f.jpg",
+    "images/34496017/r.jpg",
+    "images/34496017/b.jpg",
+    "images/34496017/l.jpg",
+    "images/34496017/u.jpg",
+    "images/34496017/d.jpg"
+   ],
+   "yaw": 132.655,
+   "pitch": -6.861,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 3.693,
+     "yaw": 83.146,
+     "type": "scene",
+     "sceneId": "59712274",
+     "text": "西湖专家楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.04,
+     "yaw": 2.392,
+     "type": "scene",
+     "sceneId": "59712243",
+     "text": "西湖",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.348,
+     "yaw": -100.527,
+     "type": "scene",
+     "sceneId": "59712276",
+     "text": "溪水苑",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712274": {
+   "id": "59712274",
+   "panoId": "34496031",
+   "name": "西湖专家楼",
+   "index": 17,
+   "thumb": "thumbs/34496031.jpg",
+   "faces": [
+    "images/34496031/f.jpg",
+    "images/34496031/r.jpg",
+    "images/34496031/b.jpg",
+    "images/34496031/l.jpg",
+    "images/34496031/u.jpg",
+    "images/34496031/d.jpg"
+   ],
+   "yaw": 193.035,
+   "pitch": -16.267,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -15.586,
+     "yaw": -123.01,
+     "type": "scene",
+     "sceneId": "59712261",
+     "text": "文汇路",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712243": {
+   "id": "59712243",
+   "panoId": "34496000",
+   "name": "西湖",
+   "index": 18,
+   "thumb": "thumbs/34496000.jpg",
+   "faces": [
+    "images/34496000/f.jpg",
+    "images/34496000/r.jpg",
+    "images/34496000/b.jpg",
+    "images/34496000/l.jpg",
+    "images/34496000/u.jpg",
+    "images/34496000/d.jpg"
+   ],
+   "yaw": 70.218,
+   "pitch": -7.022,
+   "mfov": 95.0,
+   "hotSpots": []
+  },
+  "59712246": {
+   "id": "59712246",
+   "panoId": "34496003",
+   "name": "海棠园",
+   "index": 19,
+   "thumb": "thumbs/34496003.jpg",
+   "faces": [
+    "images/34496003/f.jpg",
+    "images/34496003/r.jpg",
+    "images/34496003/b.jpg",
+    "images/34496003/l.jpg",
+    "images/34496003/u.jpg",
+    "images/34496003/d.jpg"
+   ],
+   "yaw": 104.439,
+   "pitch": -41.689,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 14.19,
+     "yaw": 154.289,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.921,
+     "yaw": -159.938,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -26.972,
+     "yaw": 5.899,
+     "type": "scene",
+     "sceneId": "59712262",
+     "text": "文津路",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712252": {
+   "id": "59712252",
+   "panoId": "34496009",
+   "name": "音乐广场",
+   "index": 20,
+   "thumb": "thumbs/34496009.jpg",
+   "faces": [
+    "images/34496009/f.jpg",
+    "images/34496009/r.jpg",
+    "images/34496009/b.jpg",
+    "images/34496009/l.jpg",
+    "images/34496009/u.jpg",
+    "images/34496009/d.jpg"
+   ],
+   "yaw": 184.371,
+   "pitch": -23.243,
+   "mfov": 96.397,
+   "hotSpots": [
+    {
+     "pitch": 3.35,
+     "yaw": -81.803,
+     "type": "scene",
+     "sceneId": "59712256",
+     "text": "体育场",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.482,
+     "yaw": -138.793,
+     "type": "scene",
+     "sceneId": "59712258",
+     "text": "体育馆",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712256": {
+   "id": "59712256",
+   "panoId": "34496013",
+   "name": "体育场",
+   "index": 21,
+   "thumb": "thumbs/34496013.jpg",
+   "faces": [
+    "images/34496013/f.jpg",
+    "images/34496013/r.jpg",
+    "images/34496013/b.jpg",
+    "images/34496013/l.jpg",
+    "images/34496013/u.jpg",
+    "images/34496013/d.jpg"
+   ],
+   "yaw": 148.642,
+   "pitch": -29.88,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 0.867,
+     "yaw": -129.362,
+     "type": "scene",
+     "sceneId": "59712258",
+     "text": "体育馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -8.498,
+     "yaw": 177.179,
+     "type": "scene",
+     "sceneId": "59712252",
+     "text": "音乐广场",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712258": {
+   "id": "59712258",
+   "panoId": "34496015",
+   "name": "体育馆",
+   "index": 22,
+   "thumb": "thumbs/34496015.jpg",
+   "faces": [
+    "images/34496015/f.jpg",
+    "images/34496015/r.jpg",
+    "images/34496015/b.jpg",
+    "images/34496015/l.jpg",
+    "images/34496015/u.jpg",
+    "images/34496015/d.jpg"
+   ],
+   "yaw": 176.015,
+   "pitch": -14.251,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -4.08,
+     "yaw": -2.388,
+     "type": "scene",
+     "sceneId": "59712256",
+     "text": "体育场",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712238": {
+   "id": "59712238",
+   "panoId": "34495995",
+   "name": "博学路",
+   "index": 23,
+   "thumb": "thumbs/34495995.jpg",
+   "faces": [
+    "images/34495995/f.jpg",
+    "images/34495995/r.jpg",
+    "images/34495995/b.jpg",
+    "images/34495995/l.jpg",
+    "images/34495995/u.jpg",
+    "images/34495995/d.jpg"
+   ],
+   "yaw": -84.41,
+   "pitch": -15.367,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -2.338,
+     "yaw": 168.532,
+     "type": "scene",
+     "sceneId": "59712246",
+     "text": "海棠园",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.739,
+     "yaw": -166.623,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.242,
+     "yaw": -116.916,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -6.951,
+     "yaw": 61.393,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.449,
+     "yaw": -7.501,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.208,
+     "yaw": -29.347,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.147,
+     "yaw": -39.239,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.352,
+     "yaw": -44.392,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.073,
+     "yaw": -79.209,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -21.922,
+     "yaw": -99.124,
+     "type": "custom",
+     "cssClass": "pano-label",
+     "text": "博学路"
+    }
+   ]
+  },
+  "61225847": {
+   "id": "61225847",
+   "panoId": "35133404",
+   "name": "躬行路",
+   "index": 24,
+   "thumb": "thumbs/35133404.jpg",
+   "faces": [
+    "images/35133404/f.jpg",
+    "images/35133404/r.jpg",
+    "images/35133404/b.jpg",
+    "images/35133404/l.jpg",
+    "images/35133404/u.jpg",
+    "images/35133404/d.jpg"
+   ],
+   "yaw": 139.895,
+   "pitch": -24.565,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -20.452,
+     "yaw": 139.527,
+     "type": "custom",
+     "cssClass": "pano-label",
+     "text": "躬行路"
+    },
+    {
+     "pitch": 9.763,
+     "yaw": 106.353,
+     "type": "scene",
+     "sceneId": "59712248",
+     "text": "敬业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 12.295,
+     "yaw": 116.346,
+     "type": "scene",
+     "sceneId": "59712251",
+     "text": "立业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.379,
+     "yaw": 127.515,
+     "type": "scene",
+     "sceneId": "59712279",
+     "text": "兴业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.456,
+     "yaw": 171.859,
+     "type": "scene",
+     "sceneId": "59712239",
+     "text": "创业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.813,
+     "yaw": -111.292,
+     "type": "scene",
+     "sceneId": "59712254",
+     "text": "勤政楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.501,
+     "yaw": -82.684,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -4.279,
+     "yaw": -65.397,
+     "type": "scene",
+     "sceneId": "61225846",
+     "text": "中心广场",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.804,
+     "yaw": -45.453,
+     "type": "scene",
+     "sceneId": "59712253",
+     "text": "明学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.326,
+     "yaw": -21.732,
+     "type": "scene",
+     "sceneId": "59712240",
+     "text": "德学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.797,
+     "yaw": 3.941,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 9.661,
+     "yaw": 23.61,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.191,
+     "yaw": 52.033,
+     "type": "scene",
+     "sceneId": "59843593",
+     "text": "立德树人石刻",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 13.82,
+     "yaw": 64.914,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712259": {
+   "id": "59712259",
+   "panoId": "34496016",
+   "name": "文达路",
+   "index": 25,
+   "thumb": "thumbs/34496016.jpg",
+   "faces": [
+    "images/34496016/f.jpg",
+    "images/34496016/r.jpg",
+    "images/34496016/b.jpg",
+    "images/34496016/l.jpg",
+    "images/34496016/u.jpg",
+    "images/34496016/d.jpg"
+   ],
+   "yaw": -133.563,
+   "pitch": -36.303,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 7.39,
+     "yaw": -99.576,
+     "type": "scene",
+     "sceneId": "59712258",
+     "text": "体育馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.895,
+     "yaw": -52.067,
+     "type": "scene",
+     "sceneId": "59712256",
+     "text": "体育场",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -3.208,
+     "yaw": -27.168,
+     "type": "scene",
+     "sceneId": "59712252",
+     "text": "音乐广场",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.057,
+     "yaw": 6.14,
+     "type": "scene",
+     "sceneId": "59712248",
+     "text": "敬业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 12.564,
+     "yaw": 86.194,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -0.01,
+     "yaw": 119.068,
+     "type": "scene",
+     "sceneId": "59712280",
+     "text": "修业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.28,
+     "yaw": 113.855,
+     "type": "scene",
+     "sceneId": "59712249",
+     "text": "乐业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -35.546,
+     "yaw": -116.468,
+     "type": "custom",
+     "cssClass": "pano-label",
+     "text": "文达路"
+    }
+   ]
+  },
+  "59712261": {
+   "id": "59712261",
+   "panoId": "34496018",
+   "name": "文汇路",
+   "index": 26,
+   "thumb": "thumbs/34496018.jpg",
+   "faces": [
+    "images/34496018/f.jpg",
+    "images/34496018/r.jpg",
+    "images/34496018/b.jpg",
+    "images/34496018/l.jpg",
+    "images/34496018/u.jpg",
+    "images/34496018/d.jpg"
+   ],
+   "yaw": 127.27,
+   "pitch": -16.382,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 5.223,
+     "yaw": 116.133,
+     "type": "scene",
+     "sceneId": "59712274",
+     "text": "西湖专家楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.009,
+     "yaw": -155.417,
+     "type": "scene",
+     "sceneId": "59712243",
+     "text": "西湖",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.454,
+     "yaw": -116.168,
+     "type": "scene",
+     "sceneId": "59712262",
+     "text": "文津路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -14.366,
+     "yaw": 128.912,
+     "type": "custom",
+     "cssClass": "pano-label",
+     "text": "文汇路"
+    }
+   ]
+  },
+  "59712262": {
+   "id": "59712262",
+   "panoId": "34496019",
+   "name": "文津路",
+   "index": 27,
+   "thumb": "thumbs/34496019.jpg",
+   "faces": [
+    "images/34496019/f.jpg",
+    "images/34496019/r.jpg",
+    "images/34496019/b.jpg",
+    "images/34496019/l.jpg",
+    "images/34496019/u.jpg",
+    "images/34496019/d.jpg"
+   ],
+   "yaw": 171.836,
+   "pitch": -22.821,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 1.369,
+     "yaw": 169.761,
+     "type": "scene",
+     "sceneId": "59712261",
+     "text": "文汇路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -8.996,
+     "yaw": -130.566,
+     "type": "scene",
+     "sceneId": "59712243",
+     "text": "西湖",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -17.572,
+     "yaw": -36.368,
+     "type": "scene",
+     "sceneId": "59712246",
+     "text": "海棠园",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.335,
+     "yaw": -18.648,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -21.188,
+     "yaw": 162.765,
+     "type": "custom",
+     "cssClass": "pano-label",
+     "text": "文津路"
+    }
+   ]
+  },
+  "59712271": {
+   "id": "59712271",
+   "panoId": "34496028",
+   "name": "文信路",
+   "index": 28,
+   "thumb": "thumbs/34496028.jpg",
+   "faces": [
+    "images/34496028/f.jpg",
+    "images/34496028/r.jpg",
+    "images/34496028/b.jpg",
+    "images/34496028/l.jpg",
+    "images/34496028/u.jpg",
+    "images/34496028/d.jpg"
+   ],
+   "yaw": 42.49,
+   "pitch": -39.479,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -12.733,
+     "yaw": 179.642,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -4.733,
+     "yaw": 175.64,
+     "type": "scene",
+     "sceneId": "59712255",
+     "text": "尚学楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.364,
+     "yaw": 91.288,
+     "type": "scene",
+     "sceneId": "59843592",
+     "text": "图书馆",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -9.473,
+     "yaw": -77.089,
+     "type": "scene",
+     "sceneId": "59712289",
+     "text": "竹山苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.633,
+     "yaw": 40.557,
+     "type": "scene",
+     "sceneId": "59712249",
+     "text": "乐业楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.523,
+     "yaw": 155.087,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -31.486,
+     "yaw": 48.993,
+     "type": "custom",
+     "cssClass": "pano-label",
+     "text": "文信路"
+    }
+   ]
+  },
+  "59712263": {
+   "id": "59712263",
+   "panoId": "34496020",
+   "name": "文津桥",
+   "index": 29,
+   "thumb": "thumbs/34496020.jpg",
+   "faces": [
+    "images/34496020/f.jpg",
+    "images/34496020/r.jpg",
+    "images/34496020/b.jpg",
+    "images/34496020/l.jpg",
+    "images/34496020/u.jpg",
+    "images/34496020/d.jpg"
+   ],
+   "yaw": 10.106,
+   "pitch": -90.0,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -23.972,
+     "yaw": 82.136,
+     "type": "scene",
+     "sceneId": "59712262",
+     "text": "文津路",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -5.421,
+     "yaw": 168.483,
+     "type": "scene",
+     "sceneId": "59712243",
+     "text": "西湖",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -5.632,
+     "yaw": -108.656,
+     "type": "scene",
+     "sceneId": "59712246",
+     "text": "海棠园",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.897,
+     "yaw": -93.974,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712272": {
+   "id": "59712272",
+   "panoId": "34496029",
+   "name": "文信桥",
+   "index": 30,
+   "thumb": "thumbs/34496029.jpg",
+   "faces": [
+    "images/34496029/f.jpg",
+    "images/34496029/r.jpg",
+    "images/34496029/b.jpg",
+    "images/34496029/l.jpg",
+    "images/34496029/u.jpg",
+    "images/34496029/d.jpg"
+   ],
+   "yaw": 10.016,
+   "pitch": -90.0,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 0.169,
+     "yaw": 24.248,
+     "type": "scene",
+     "sceneId": "59712243",
+     "text": "西湖",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712264": {
+   "id": "59712264",
+   "panoId": "34496021",
+   "name": "文思园1",
+   "index": 31,
+   "thumb": "thumbs/34496021.jpg",
+   "faces": [
+    "images/34496021/f.jpg",
+    "images/34496021/r.jpg",
+    "images/34496021/b.jpg",
+    "images/34496021/l.jpg",
+    "images/34496021/u.jpg",
+    "images/34496021/d.jpg"
+   ],
+   "yaw": 35.607,
+   "pitch": -28.299,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 1.791,
+     "yaw": 115.297,
+     "type": "scene",
+     "sceneId": "59712276",
+     "text": "溪水苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -12.78,
+     "yaw": -135.727,
+     "type": "scene",
+     "sceneId": "59712268",
+     "text": "文思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.293,
+     "yaw": -24.301,
+     "type": "scene",
+     "sceneId": "59712265",
+     "text": "文思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.533,
+     "yaw": -56.908,
+     "type": "scene",
+     "sceneId": "59712269",
+     "text": "文思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.406,
+     "yaw": 160.304,
+     "type": "scene",
+     "sceneId": "59712267",
+     "text": "文思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.136,
+     "yaw": 149.299,
+     "type": "scene",
+     "sceneId": "59712266",
+     "text": "文思园3",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712265": {
+   "id": "59712265",
+   "panoId": "34496022",
+   "name": "文思园2",
+   "index": 32,
+   "thumb": "thumbs/34496022.jpg",
+   "faces": [
+    "images/34496022/f.jpg",
+    "images/34496022/r.jpg",
+    "images/34496022/b.jpg",
+    "images/34496022/l.jpg",
+    "images/34496022/u.jpg",
+    "images/34496022/d.jpg"
+   ],
+   "yaw": -53.111,
+   "pitch": -25.752,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -15.093,
+     "yaw": -137.481,
+     "type": "scene",
+     "sceneId": "59712269",
+     "text": "文思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.527,
+     "yaw": 109.694,
+     "type": "scene",
+     "sceneId": "59712268",
+     "text": "文思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.727,
+     "yaw": 93.72,
+     "type": "scene",
+     "sceneId": "59712267",
+     "text": "文思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.096,
+     "yaw": 86.228,
+     "type": "scene",
+     "sceneId": "59712266",
+     "text": "文思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -7.269,
+     "yaw": 48.336,
+     "type": "scene",
+     "sceneId": "59712264",
+     "text": "文思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -15.808,
+     "yaw": -55.968,
+     "type": "scene",
+     "sceneId": "59712265",
+     "text": "文思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.323,
+     "yaw": 67.902,
+     "type": "scene",
+     "sceneId": "59712276",
+     "text": "溪水苑",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712266": {
+   "id": "59712266",
+   "panoId": "34496023",
+   "name": "文思园3",
+   "index": 33,
+   "thumb": "thumbs/34496023.jpg",
+   "faces": [
+    "images/34496023/f.jpg",
+    "images/34496023/r.jpg",
+    "images/34496023/b.jpg",
+    "images/34496023/l.jpg",
+    "images/34496023/u.jpg",
+    "images/34496023/d.jpg"
+   ],
+   "yaw": 218.003,
+   "pitch": -21.237,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -6.78,
+     "yaw": 60.486,
+     "type": "scene",
+     "sceneId": "59712276",
+     "text": "溪水苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 9.738,
+     "yaw": 153.362,
+     "type": "scene",
+     "sceneId": "59712260",
+     "text": "文汇楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.313,
+     "yaw": -56.203,
+     "type": "scene",
+     "sceneId": "59712267",
+     "text": "文思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.788,
+     "yaw": -49.21,
+     "type": "scene",
+     "sceneId": "59712268",
+     "text": "文思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.925,
+     "yaw": -44.236,
+     "type": "scene",
+     "sceneId": "59712269",
+     "text": "文思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.563,
+     "yaw": -30.842,
+     "type": "scene",
+     "sceneId": "59712265",
+     "text": "文思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.757,
+     "yaw": -24.668,
+     "type": "scene",
+     "sceneId": "59712264",
+     "text": "文思园1",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712267": {
+   "id": "59712267",
+   "panoId": "34496024",
+   "name": "文思园4",
+   "index": 34,
+   "thumb": "thumbs/34496024.jpg",
+   "faces": [
+    "images/34496024/f.jpg",
+    "images/34496024/r.jpg",
+    "images/34496024/b.jpg",
+    "images/34496024/l.jpg",
+    "images/34496024/u.jpg",
+    "images/34496024/d.jpg"
+   ],
+   "yaw": 90.763,
+   "pitch": -27.3,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 1.649,
+     "yaw": 24.305,
+     "type": "scene",
+     "sceneId": "59712266",
+     "text": "文思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -0.429,
+     "yaw": 154.236,
+     "type": "scene",
+     "sceneId": "59712268",
+     "text": "文思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.054,
+     "yaw": 171.251,
+     "type": "scene",
+     "sceneId": "59712269",
+     "text": "文思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.299,
+     "yaw": -159.8,
+     "type": "scene",
+     "sceneId": "59712264",
+     "text": "文思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.823,
+     "yaw": -169.538,
+     "type": "scene",
+     "sceneId": "59712265",
+     "text": "文思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.402,
+     "yaw": -33.844,
+     "type": "scene",
+     "sceneId": "59712276",
+     "text": "溪水苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.647,
+     "yaw": 13.314,
+     "type": "scene",
+     "sceneId": "59712260",
+     "text": "文汇楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712268": {
+   "id": "59712268",
+   "panoId": "34496025",
+   "name": "文思园5",
+   "index": 35,
+   "thumb": "thumbs/34496025.jpg",
+   "faces": [
+    "images/34496025/f.jpg",
+    "images/34496025/r.jpg",
+    "images/34496025/b.jpg",
+    "images/34496025/l.jpg",
+    "images/34496025/u.jpg",
+    "images/34496025/d.jpg"
+   ],
+   "yaw": -139.744,
+   "pitch": -23.663,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -3.15,
+     "yaw": -55.509,
+     "type": "scene",
+     "sceneId": "59712269",
+     "text": "文思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.894,
+     "yaw": -24.53,
+     "type": "scene",
+     "sceneId": "59712265",
+     "text": "文思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -10.698,
+     "yaw": 33.0,
+     "type": "scene",
+     "sceneId": "59712264",
+     "text": "文思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.608,
+     "yaw": 120.421,
+     "type": "scene",
+     "sceneId": "59712276",
+     "text": "溪水苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.386,
+     "yaw": 159.08,
+     "type": "scene",
+     "sceneId": "59712267",
+     "text": "文思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.909,
+     "yaw": 150.519,
+     "type": "scene",
+     "sceneId": "59712266",
+     "text": "文思园3",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712269": {
+   "id": "59712269",
+   "panoId": "34496026",
+   "name": "文思园6",
+   "index": 36,
+   "thumb": "thumbs/34496026.jpg",
+   "faces": [
+    "images/34496026/f.jpg",
+    "images/34496026/r.jpg",
+    "images/34496026/b.jpg",
+    "images/34496026/l.jpg",
+    "images/34496026/u.jpg",
+    "images/34496026/d.jpg"
+   ],
+   "yaw": -130.116,
+   "pitch": -24.052,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -13.504,
+     "yaw": -58.487,
+     "type": "scene",
+     "sceneId": "59712265",
+     "text": "文思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.838,
+     "yaw": 63.083,
+     "type": "scene",
+     "sceneId": "59712276",
+     "text": "溪水苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -7.405,
+     "yaw": 47.92,
+     "type": "scene",
+     "sceneId": "59712264",
+     "text": "文思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -3.682,
+     "yaw": 110.67,
+     "type": "scene",
+     "sceneId": "59712268",
+     "text": "文思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.547,
+     "yaw": 93.384,
+     "type": "scene",
+     "sceneId": "59712267",
+     "text": "文思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.078,
+     "yaw": 86.244,
+     "type": "scene",
+     "sceneId": "59712266",
+     "text": "文思园3",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712281": {
+   "id": "59712281",
+   "panoId": "34496038",
+   "name": "学思园1",
+   "index": 37,
+   "thumb": "thumbs/34496038.jpg",
+   "faces": [
+    "images/34496038/f.jpg",
+    "images/34496038/r.jpg",
+    "images/34496038/b.jpg",
+    "images/34496038/l.jpg",
+    "images/34496038/u.jpg",
+    "images/34496038/d.jpg"
+   ],
+   "yaw": 269.729,
+   "pitch": -11.457,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 0.452,
+     "yaw": -36.436,
+     "type": "scene",
+     "sceneId": "59712289",
+     "text": "竹山苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.183,
+     "yaw": 17.746,
+     "type": "scene",
+     "sceneId": "59712283",
+     "text": "学思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -0.62,
+     "yaw": 27.581,
+     "type": "scene",
+     "sceneId": "59712267",
+     "text": "文思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.764,
+     "yaw": 82.334,
+     "type": "scene",
+     "sceneId": "59712285",
+     "text": "学思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.525,
+     "yaw": 159.382,
+     "type": "scene",
+     "sceneId": "59712286",
+     "text": "学思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.77,
+     "yaw": -162.873,
+     "type": "scene",
+     "sceneId": "59712282",
+     "text": "学思园2",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712282": {
+   "id": "59712282",
+   "panoId": "34496039",
+   "name": "学思园2",
+   "index": 38,
+   "thumb": "thumbs/34496039.jpg",
+   "faces": [
+    "images/34496039/f.jpg",
+    "images/34496039/r.jpg",
+    "images/34496039/b.jpg",
+    "images/34496039/l.jpg",
+    "images/34496039/u.jpg",
+    "images/34496039/d.jpg"
+   ],
+   "yaw": -187.489,
+   "pitch": -49.278,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -9.377,
+     "yaw": -8.989,
+     "type": "scene",
+     "sceneId": "59712286",
+     "text": "学思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -2.443,
+     "yaw": -113.823,
+     "type": "scene",
+     "sceneId": "59712281",
+     "text": "学思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.605,
+     "yaw": -59.244,
+     "type": "scene",
+     "sceneId": "59712285",
+     "text": "学思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.131,
+     "yaw": -73.886,
+     "type": "scene",
+     "sceneId": "59712284",
+     "text": "学思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.713,
+     "yaw": -79.594,
+     "type": "scene",
+     "sceneId": "59712283",
+     "text": "学思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.691,
+     "yaw": -105.027,
+     "type": "scene",
+     "sceneId": "59712289",
+     "text": "竹山苑",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712283": {
+   "id": "59712283",
+   "panoId": "34496040",
+   "name": "学思园3",
+   "index": 39,
+   "thumb": "thumbs/34496040.jpg",
+   "faces": [
+    "images/34496040/f.jpg",
+    "images/34496040/r.jpg",
+    "images/34496040/b.jpg",
+    "images/34496040/l.jpg",
+    "images/34496040/u.jpg",
+    "images/34496040/d.jpg"
+   ],
+   "yaw": -15.909,
+   "pitch": -23.692,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -6.459,
+     "yaw": 178.001,
+     "type": "scene",
+     "sceneId": "59712289",
+     "text": "竹山苑",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.044,
+     "yaw": 102.179,
+     "type": "scene",
+     "sceneId": "59712281",
+     "text": "学思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 6.076,
+     "yaw": 92.457,
+     "type": "scene",
+     "sceneId": "59712282",
+     "text": "学思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -1.816,
+     "yaw": 63.683,
+     "type": "scene",
+     "sceneId": "59712284",
+     "text": "学思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.133,
+     "yaw": 71.853,
+     "type": "scene",
+     "sceneId": "59712285",
+     "text": "学思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.742,
+     "yaw": 77.418,
+     "type": "scene",
+     "sceneId": "59712286",
+     "text": "学思园6",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712284": {
+   "id": "59712284",
+   "panoId": "34496041",
+   "name": "学思园4",
+   "index": 40,
+   "thumb": "thumbs/34496041.jpg",
+   "faces": [
+    "images/34496041/f.jpg",
+    "images/34496041/r.jpg",
+    "images/34496041/b.jpg",
+    "images/34496041/l.jpg",
+    "images/34496041/u.jpg",
+    "images/34496041/d.jpg"
+   ],
+   "yaw": 0.558,
+   "pitch": -15.498,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 2.998,
+     "yaw": -52.687,
+     "type": "scene",
+     "sceneId": "59712283",
+     "text": "学思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -4.861,
+     "yaw": 52.058,
+     "type": "scene",
+     "sceneId": "59712285",
+     "text": "学思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.662,
+     "yaw": 76.886,
+     "type": "scene",
+     "sceneId": "59712286",
+     "text": "学思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.287,
+     "yaw": 121.054,
+     "type": "scene",
+     "sceneId": "59712281",
+     "text": "学思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.682,
+     "yaw": 103.967,
+     "type": "scene",
+     "sceneId": "59712282",
+     "text": "学思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -0.099,
+     "yaw": -125.067,
+     "type": "scene",
+     "sceneId": "59712289",
+     "text": "竹山苑",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712285": {
+   "id": "59712285",
+   "panoId": "34496042",
+   "name": "学思园5",
+   "index": 41,
+   "thumb": "thumbs/34496042.jpg",
+   "faces": [
+    "images/34496042/f.jpg",
+    "images/34496042/r.jpg",
+    "images/34496042/b.jpg",
+    "images/34496042/l.jpg",
+    "images/34496042/u.jpg",
+    "images/34496042/d.jpg"
+   ],
+   "yaw": 88.341,
+   "pitch": -16.966,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": -1.629,
+     "yaw": 26.792,
+     "type": "scene",
+     "sceneId": "59712284",
+     "text": "学思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 3.13,
+     "yaw": 15.758,
+     "type": "scene",
+     "sceneId": "59712283",
+     "text": "学思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 1.718,
+     "yaw": 160.731,
+     "type": "scene",
+     "sceneId": "59712286",
+     "text": "学思园6",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -8.002,
+     "yaw": -85.715,
+     "type": "scene",
+     "sceneId": "59712281",
+     "text": "学思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 2.982,
+     "yaw": -168.422,
+     "type": "scene",
+     "sceneId": "59712282",
+     "text": "学思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 0.038,
+     "yaw": -26.125,
+     "type": "scene",
+     "sceneId": "59712289",
+     "text": "竹山苑",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712286": {
+   "id": "59712286",
+   "panoId": "34496043",
+   "name": "学思园6",
+   "index": 42,
+   "thumb": "thumbs/34496043.jpg",
+   "faces": [
+    "images/34496043/f.jpg",
+    "images/34496043/r.jpg",
+    "images/34496043/b.jpg",
+    "images/34496043/l.jpg",
+    "images/34496043/u.jpg",
+    "images/34496043/d.jpg"
+   ],
+   "yaw": -1.856,
+   "pitch": -18.673,
+   "mfov": 95.0,
+   "hotSpots": [
+    {
+     "pitch": 2.792,
+     "yaw": -60.293,
+     "type": "scene",
+     "sceneId": "59712285",
+     "text": "学思园5",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 4.402,
+     "yaw": -72.301,
+     "type": "scene",
+     "sceneId": "59712284",
+     "text": "学思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 8.345,
+     "yaw": -78.913,
+     "type": "scene",
+     "sceneId": "59712283",
+     "text": "学思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -29.13,
+     "yaw": -165.612,
+     "type": "scene",
+     "sceneId": "59712282",
+     "text": "学思园2",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": -0.149,
+     "yaw": -112.376,
+     "type": "scene",
+     "sceneId": "59712281",
+     "text": "学思园1",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.049,
+     "yaw": -103.518,
+     "type": "scene",
+     "sceneId": "59712289",
+     "text": "竹山苑",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712276": {
+   "id": "59712276",
+   "panoId": "34496033",
+   "name": "溪水苑",
+   "index": 43,
+   "thumb": "thumbs/34496033.jpg",
+   "faces": [
+    "images/34496033/f.jpg",
+    "images/34496033/r.jpg",
+    "images/34496033/b.jpg",
+    "images/34496033/l.jpg",
+    "images/34496033/u.jpg",
+    "images/34496033/d.jpg"
+   ],
+   "yaw": 4.716,
+   "pitch": -9.651,
+   "mfov": 84.089,
+   "hotSpots": [
+    {
+     "pitch": 9.274,
+     "yaw": -123.304,
+     "type": "scene",
+     "sceneId": "59712260",
+     "text": "文汇楼",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 7.636,
+     "yaw": -56.172,
+     "type": "scene",
+     "sceneId": "59712266",
+     "text": "文思园3",
+     "cssClass": "nav-spot"
+    }
+   ]
+  },
+  "59712289": {
+   "id": "59712289",
+   "panoId": "34496046",
+   "name": "竹山苑",
+   "index": 44,
+   "thumb": "thumbs/34496046.jpg",
+   "faces": [
+    "images/34496046/f.jpg",
+    "images/34496046/r.jpg",
+    "images/34496046/b.jpg",
+    "images/34496046/l.jpg",
+    "images/34496046/u.jpg",
+    "images/34496046/d.jpg"
+   ],
+   "yaw": 8.51,
+   "pitch": -28.227,
+   "mfov": 85.777,
+   "hotSpots": [
+    {
+     "pitch": 2.613,
+     "yaw": -62.094,
+     "type": "scene",
+     "sceneId": "59712283",
+     "text": "学思园3",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 5.123,
+     "yaw": -34.977,
+     "type": "scene",
+     "sceneId": "59712284",
+     "text": "学思园4",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 11.324,
+     "yaw": 104.348,
+     "type": "scene",
+     "sceneId": "59712277",
+     "text": "校门",
+     "cssClass": "nav-spot"
+    },
+    {
+     "pitch": 10.15,
+     "yaw": 135.051,
+     "type": "scene",
+     "sceneId": "59712278",
+     "text": "行学楼",
+     "cssClass": "nav-spot"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>江苏电子信息职业学院 · 720° 校园全景</title>
+<meta name="description" content="江苏电子信息职业学院 720° 校园全景漫游，包含 44 个校园场景，支持场景搜索、热点导航与全屏浏览。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='32' y='43' font-size='22' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%23fff'%3E720%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="viewer/pannellum.css">
+<style>
+:root {
+  --bg: #0b0e14;
+  --panel: rgba(13, 17, 25, .94);
+  --panel-2: rgba(21, 27, 39, .9);
+  --line: rgba(255, 255, 255, .09);
+  --line-strong: rgba(255, 255, 255, .16);
+  --text: #eef2f8;
+  --muted: #8b97aa;
+  --muted-2: #667386;
+  --accent: #38bdf8;
+  --accent-2: #2563eb;
+  --accent-soft: rgba(56, 189, 248, .16);
+  --radius: 12px;
+  --sidebar-w: 310px;
+  --font: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", "Source Han Sans SC", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+button, input { font-family: inherit; }
+button { color: inherit; }
+::selection { background: var(--accent); color: #04121c; }
+
+#app { display: flex; width: 100%; height: 100%; }
+
+/* ---------------- Sidebar ---------------- */
+.sidebar {
+  position: relative;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  width: var(--sidebar-w);
+  min-width: var(--sidebar-w);
+  height: 100%;
+  background:
+    radial-gradient(120% 60% at 0% 0%, rgba(37, 99, 235, .14), transparent 55%),
+    linear-gradient(180deg, #10151f 0%, #0b0e14 100%);
+  border-right: 1px solid var(--line);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 22px 20px 16px;
+}
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  flex: 0 0 46px;
+  border-radius: 13px;
+  background: linear-gradient(145deg, var(--accent), var(--accent-2));
+  color: #03121e;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: -.5px;
+  box-shadow: 0 8px 24px rgba(37, 99, 235, .35);
+}
+.brand h1 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+.brand p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 11.5px;
+  letter-spacing: 1.5px;
+}
+.search-wrap {
+  position: relative;
+  margin: 4px 16px 12px;
+}
+.search-wrap svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  color: var(--muted-2);
+  pointer-events: none;
+}
+#searchInput {
+  width: 100%;
+  height: 40px;
+  padding: 0 36px 0 34px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .045);
+  color: var(--text);
+  font-size: 13px;
+  outline: none;
+  transition: border-color .2s, background .2s, box-shadow .2s;
+}
+#searchInput::placeholder { color: var(--muted-2); }
+#searchInput:focus {
+  border-color: rgba(56, 189, 248, .55);
+  background: rgba(56, 189, 248, .06);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, .1);
+}
+#clearSearch {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  width: 26px;
+  height: 26px;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  display: none;
+}
+#clearSearch:hover { background: rgba(255, 255, 255, .08); color: #fff; }
+#clearSearch.show { display: block; }
+.list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 22px 8px;
+  color: var(--muted-2);
+  font-size: 10.5px;
+  letter-spacing: 1.5px;
+}
+#listCount {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 18px;
+  padding: 0 6px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, .06);
+  color: var(--muted);
+  font-size: 10.5px;
+  letter-spacing: 0;
+}
+.scene-list {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 2px 10px 14px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, .18) transparent;
+}
+.scene-list::-webkit-scrollbar { width: 7px; }
+.scene-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, .16);
+  border-radius: 4px;
+}
+.scene-list::-webkit-scrollbar-track { background: transparent; }
+.scene-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 7px 9px;
+  margin: 2px 0;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: background .18s, border-color .18s;
+}
+.scene-card[hidden] { display: none; }
+.scene-card:hover { background: rgba(255, 255, 255, .055); }
+.scene-card.active {
+  background: linear-gradient(90deg, rgba(56, 189, 248, .13), rgba(37, 99, 235, .05));
+  border-color: rgba(56, 189, 248, .24);
+}
+.scene-card.active::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 14px;
+  bottom: 14px;
+  width: 2px;
+  border-radius: 2px;
+  background: var(--accent);
+  box-shadow: 0 0 12px rgba(56, 189, 248, .8);
+}
+.scene-card .thumb {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #151b25;
+}
+.scene-card .thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .35s ease;
+}
+.scene-card:hover .thumb img { transform: scale(1.06); }
+.scene-card .meta {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.scene-card .idx {
+  color: var(--muted-2);
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  font-variant-numeric: tabular-nums;
+}
+.scene-card .name {
+  overflow: hidden;
+  color: #dce4ef;
+  font-size: 13.5px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.scene-card.active .name { color: #fff; font-weight: 600; }
+.empty {
+  padding: 30px 16px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
+.sidebar-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px 14px;
+  border-top: 1px solid var(--line);
+  color: var(--muted-2);
+  font-size: 10.5px;
+  letter-spacing: .3px;
+}
+.link-btn {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 10.5px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.link-btn:hover { color: var(--accent); }
+
+/* ---------------- Stage ---------------- */
+.stage {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #070a10;
+}
+#panorama {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.pnlm-container { background: #070a10 !important; }
+.pnlm-about-msg { display: none !important; }
+.pnlm-load-box {
+  width: 210px !important;
+  height: 132px !important;
+  margin: -66px 0 0 -105px !important;
+  padding-top: 18px;
+  background: rgba(10, 14, 21, .88) !important;
+  border: 1px solid var(--line) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .45);
+  backdrop-filter: blur(12px);
+}
+.pnlm-load-box p { margin: 14px 0 8px !important; font-size: 13px !important; color: #cfd8e6 !important; }
+.pnlm-lbar { width: 150px !important; border-color: rgba(255, 255, 255, .18) !important; }
+.pnlm-lbar-fill { background: linear-gradient(90deg, var(--accent), #818cf8) !important; }
+.pnlm-lmsg { font-size: 11px !important; color: var(--muted) !important; }
+.pnlm-loading { background-color: var(--accent) !important; }
+
+/* ---------------- Top / bottom overlays ---------------- */
+.topbar {
+  position: absolute;
+  z-index: 12;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: max(16px, env(safe-area-inset-top)) 20px 46px;
+  background: linear-gradient(180deg, rgba(4, 7, 12, .72) 0%, rgba(4, 7, 12, .28) 55%, transparent 100%);
+  pointer-events: none;
+}
+.topbar > * { pointer-events: auto; }
+.scene-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.scene-index {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 10px;
+  background: rgba(8, 12, 19, .45);
+  color: #d7e1ef;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-variant-numeric: tabular-nums;
+  backdrop-filter: blur(8px);
+}
+.scene-heading h2 {
+  margin: 0;
+  overflow: hidden;
+  max-width: 46vw;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, .5);
+}
+.scene-heading p {
+  margin: 4px 0 0;
+  color: rgba(226, 234, 245, .62);
+  font-size: 10.5px;
+  letter-spacing: 1.2px;
+}
+.top-actions { display: flex; align-items: center; gap: 8px; }
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-radius: 10px;
+  background: rgba(8, 12, 19, .5);
+  color: #e6edf7;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: background .2s, border-color .2s, color .2s;
+}
+.icon-btn:hover { background: rgba(56, 189, 248, .16); border-color: rgba(56, 189, 248, .45); color: #fff; }
+.icon-btn.active { background: var(--accent); border-color: var(--accent); color: #04121c; }
+.menu-btn { display: none; }
+
+.bottom-bar {
+  position: absolute;
+  z-index: 12;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 34px 20px max(14px, env(safe-area-inset-bottom));
+  background: linear-gradient(0deg, rgba(4, 7, 12, .7) 0%, rgba(4, 7, 12, .24) 55%, transparent 100%);
+  pointer-events: none;
+}
+.progress {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 46px;
+  height: 2px;
+  overflow: hidden;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, .12);
+}
+.progress span {
+  display: block;
+  width: 0%;
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent), #818cf8);
+  transition: width .4s ease;
+  box-shadow: 0 0 10px rgba(56, 189, 248, .55);
+}
+.bottom-inner {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: rgba(226, 234, 245, .66);
+  font-size: 11.5px;
+  letter-spacing: .4px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .55);
+}
+#bottomName { color: #fff; font-weight: 600; }
+.bottom-inner .dot { color: rgba(255, 255, 255, .28); }
+.bottom-inner .spacer { flex: 1; }
+.bottom-inner .tip { color: rgba(226, 234, 245, .48); font-size: 10.5px; }
+
+/* ---------------- Hotspots ---------------- */
+div.pnlm-hotspot-base { cursor: default; }
+.nav-spot {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(6, 14, 24, .28);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .94);
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, .16), 0 5px 16px rgba(0, 0, 0, .45);
+  cursor: pointer !important;
+  transition: background .18s, box-shadow .18s;
+}
+.nav-spot::before {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border-radius: 50%;
+  background: #0b6cff;
+  box-shadow: 0 0 8px rgba(11, 108, 255, .55);
+}
+.nav-spot::after {
+  content: "";
+  position: absolute;
+  inset: -7px;
+  border: 1px solid rgba(255, 255, 255, .42);
+  border-radius: 50%;
+  animation: spot-pulse 2.2s ease-out infinite;
+}
+@keyframes spot-pulse {
+  0% { transform: scale(.82); opacity: .9; }
+  70% { transform: scale(1.38); opacity: 0; }
+  100% { transform: scale(1.38); opacity: 0; }
+}
+.nav-spot:hover {
+  background: #fff;
+  box-shadow: 0 0 0 9px rgba(56, 189, 248, .26), 0 6px 20px rgba(0, 0, 0, .5);
+}
+.pano-label {
+  width: 9px;
+  height: 9px;
+  border: 1px solid rgba(255, 255, 255, .55);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .3);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .08);
+  cursor: help !important;
+}
+.pano-label:hover { background: var(--accent); border-color: #fff; }
+div.pnlm-tooltip span {
+  padding: 6px 11px !important;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 8px !important;
+  background: rgba(8, 12, 19, .92) !important;
+  color: #fff !important;
+  font-family: var(--font);
+  font-size: 12px !important;
+  line-height: 1.25;
+  letter-spacing: .3px;
+  white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .35);
+  backdrop-filter: blur(8px);
+}
+div.pnlm-tooltip:hover span:after {
+  border-color: rgba(8, 12, 19, .92) transparent transparent transparent !important;
+}
+
+/* ---------------- Intro ---------------- */
+.intro {
+  position: absolute;
+  z-index: 40;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #070a10;
+  transition: opacity .6s ease, visibility .6s ease;
+}
+.intro.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+.intro-bg {
+  position: absolute;
+  inset: -30px;
+  background-position: center;
+  background-size: cover;
+  filter: blur(18px) brightness(.44) saturate(.85);
+  transform: scale(1.04);
+}
+.intro::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(60% 60% at 50% 45%, rgba(7, 10, 16, .2), rgba(7, 10, 16, .86) 78%),
+    linear-gradient(180deg, rgba(7, 10, 16, .3), rgba(7, 10, 16, .9));
+}
+.intro-content {
+  position: relative;
+  z-index: 1;
+  width: min(560px, calc(100vw - 48px));
+  padding: 0 12px;
+  text-align: center;
+}
+.intro-kicker {
+  color: var(--accent);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.intro-content h1 {
+  margin: 16px 0 0;
+  color: #fff;
+  font-size: clamp(26px, 4.2vw, 46px);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: 1px;
+  text-shadow: 0 8px 40px rgba(0, 0, 0, .5);
+}
+.intro-content > p {
+  margin: 12px 0 0;
+  color: rgba(226, 234, 245, .7);
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.loader {
+  display: inline-flex;
+  gap: 7px;
+  margin-top: 30px;
+}
+.loader span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: loader-bounce 1.15s ease-in-out infinite;
+}
+.loader span:nth-child(2) { animation-delay: .14s; }
+.loader span:nth-child(3) { animation-delay: .28s; }
+@keyframes loader-bounce {
+  0%, 70%, 100% { transform: translateY(0); opacity: .45; }
+  35% { transform: translateY(-8px); opacity: 1; }
+}
+.intro-status {
+  margin: 16px 0 0 !important;
+  color: rgba(226, 234, 245, .55) !important;
+  font-size: 11.5px !important;
+  line-height: 1.8;
+  letter-spacing: .5px !important;
+}
+.intro-status b { color: #fff; font-weight: 600; }
+.ghost-btn {
+  margin-top: 20px;
+  padding: 9px 20px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .04);
+  color: #e8eef8;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.ghost-btn:hover { border-color: var(--accent); color: #fff; background: rgba(56, 189, 248, .12); }
+.file-warning {
+  position: absolute;
+  z-index: 45;
+  top: 84px;
+  left: 50%;
+  width: min(520px, calc(100vw - 40px));
+  padding: 12px 16px;
+  transform: translateX(-50%);
+  border: 1px solid rgba(251, 191, 36, .35);
+  border-radius: 10px;
+  background: rgba(40, 30, 8, .9);
+  color: #fde68a;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, .4);
+}
+
+/* ---------------- Modal ---------------- */
+.modal {
+  position: absolute;
+  z-index: 60;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(3, 6, 11, .7);
+  backdrop-filter: blur(8px);
+}
+.modal[hidden] { display: none; }
+.modal-card {
+  position: relative;
+  width: min(520px, 100%);
+  padding: 28px 30px;
+  border: 1px solid var(--line-strong);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(20, 26, 38, .98), rgba(10, 14, 21, .98));
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .55);
+}
+.modal-card h3 { margin: 0 0 18px; font-size: 18px; letter-spacing: .5px; }
+.modal-card ul { margin: 0; padding: 0; list-style: none; }
+.modal-card li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .06);
+  color: #c7d2e1;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.modal-card li b { color: #fff; font-weight: 600; }
+.modal-card .muted {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 11.5px;
+  line-height: 1.8;
+}
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 20px;
+  cursor: pointer;
+}
+.modal-close:hover { background: rgba(255, 255, 255, .08); color: #fff; }
+
+.backdrop {
+  position: fixed;
+  z-index: 25;
+  inset: 0;
+  display: none;
+  background: rgba(3, 6, 11, .58);
+  backdrop-filter: blur(3px);
+}
+.backdrop.show { display: block; }
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 860px) {
+  .nav-spot { width: 24px; height: 24px; }
+  .nav-spot::before { inset: 6px; }
+  .nav-spot::after { inset: -6px; }
+  .pano-label { width: 8px; height: 8px; }
+  .bottom-bar {
+    background: linear-gradient(0deg, rgba(4, 7, 12, .84) 0%, rgba(4, 7, 12, .34) 62%, transparent 100%);
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: min(86vw, 330px);
+    min-width: 0;
+    transform: translateX(-104%);
+    transition: transform .28s cubic-bezier(.2, .7, .2, 1);
+    box-shadow: 24px 0 60px rgba(0, 0, 0, .4);
+  }
+  .sidebar.open { transform: translateX(0); }
+  .menu-btn { display: grid; }
+  .scene-heading { margin-right: auto; }
+  .scene-heading h2 { max-width: 40vw; font-size: 16px; }
+  .scene-heading p { display: none; }
+  .scene-index { width: 32px; height: 32px; flex-basis: 32px; font-size: 11px; }
+  .topbar { padding: 12px 12px 34px; gap: 10px; }
+  .top-actions { gap: 6px; }
+  .icon-btn { width: 34px; height: 34px; border-radius: 9px; font-size: 14px; }
+  .bottom-inner .tip { display: none; }
+  .progress { left: 12px; right: 12px; bottom: 46px; }
+  .bottom-bar { padding: 28px 12px max(15px, env(safe-area-inset-bottom)); }
+  .intro-kicker { font-size: 9px; letter-spacing: 2.2px; }
+  .intro-content h1 { letter-spacing: .5px; }
+  .file-warning { top: 68px; }
+}
+@media (max-width: 420px) {
+  .top-actions .icon-btn:nth-child(1) { display: none; }
+  .scene-heading h2 { max-width: 46vw; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar" class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">720°</div>
+      <div>
+        <h1>江苏电子信息职业学院</h1>
+        <p>校园全景 · 720° 漫游</p>
+      </div>
+    </div>
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="m20 20-3.5-3.5"></path>
+      </svg>
+      <input id="searchInput" type="search" placeholder="搜索场景，如：图书馆" autocomplete="off" aria-label="搜索场景">
+      <button id="clearSearch" type="button" aria-label="清除搜索">×</button>
+    </div>
+    <div class="list-head"><span>场景列表</span><span id="listCount">44</span></div>
+    <nav id="sceneList" class="scene-list" aria-label="场景列表">
+      <!--__SCENE_CARDS__-->
+    </nav>
+    <div class="sidebar-foot">
+      <span>44 个场景 · 2500px 全景</span>
+      <button id="aboutBtn" class="link-btn" type="button">关于</button>
+    </div>
+  </aside>
+
+  <div id="backdrop" class="backdrop"></div>
+
+  <main id="stage" class="stage">
+    <div id="panorama"></div>
+
+    <div class="topbar">
+      <button id="menuBtn" class="icon-btn menu-btn" type="button" aria-label="打开场景列表">☰</button>
+      <div class="scene-heading">
+        <span id="sceneIndex" class="scene-index">01</span>
+        <div>
+          <h2 id="sceneName">校门</h2>
+          <p>拖动查看 · 滚轮缩放 · 点击圆点切换场景</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button id="rotateBtn" class="icon-btn" type="button" title="自动旋转（R）" aria-label="自动旋转">⟳</button>
+        <button id="fullBtn" class="icon-btn" type="button" title="全屏（F）" aria-label="全屏">⛶</button>
+        <button id="helpBtn" class="icon-btn" type="button" title="操作说明" aria-label="操作说明">?</button>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <div class="progress"><span id="sceneProgress"></span></div>
+      <div class="bottom-inner">
+        <span id="bottomName">校门</span>
+        <span class="dot">·</span>
+        <span id="bottomCount">1 / 44</span>
+        <span class="spacer"></span>
+        <span class="tip">点击场景中的白色圆点切换视角</span>
+      </div>
+    </div>
+
+    <div id="intro" class="intro">
+      <div class="intro-bg" style="background-image:url('cover.jpg')"></div>
+      <div class="intro-content">
+        <div class="intro-kicker">720° PANORAMA · CAMPUS TOUR</div>
+        <h1>江苏电子信息职业学院</h1>
+        <p>校园全景漫游</p>
+        <div class="loader" aria-hidden="true"><span></span><span></span><span></span></div>
+        <p class="intro-status" id="introStatus">正在加载首个场景…</p>
+        <button id="introSkip" class="ghost-btn" type="button" hidden>仍然进入</button>
+      </div>
+    </div>
+
+    <div id="fileWarning" class="file-warning" hidden>
+      检测到以 <b>file://</b> 方式打开。浏览器的本地文件安全策略可能阻止全景图加载，请双击 <b>启动.bat</b> 通过本地服务器打开。
+    </div>
+
+    <div id="helpPanel" class="modal" hidden>
+      <div class="modal-card">
+        <button class="modal-close" type="button" data-close aria-label="关闭">×</button>
+        <h3>操作说明</h3>
+        <ul>
+          <li><b>拖动</b> 或 <b>方向键</b>：环顾四周</li>
+          <li><b>滚轮 / 双指缩放</b>：放大、缩小</li>
+          <li><b>白色圆点</b>：前往相邻场景</li>
+          <li><b>左侧列表 / 搜索</b>：快速跳转任意场景</li>
+          <li><b>R</b> 自动旋转　<b>F</b> 全屏　<b>N / P</b> 下一 / 上一场景</li>
+        </ul>
+        <p class="muted">
+          素材来源：720云《江苏电子信息职业学院》全景（作者：落墨良人）。<br>
+          仅供个人学习与浏览，版权归原作者及学校所有。
+        </p>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>window.TOUR_DATA = /*__TOUR_DATA__*/;</script>
+<script src="viewer/pannellum.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var DATA = window.TOUR_DATA;
+  var SCENES = DATA.scenes;
+  var ORDER = (Array.isArray(DATA.order) && DATA.order.length) ? DATA.order.slice() : Object.keys(SCENES);
+  var TOTAL = ORDER.length;
+  var panoramaEl = document.getElementById('panorama');
+  var introEl = document.getElementById('intro');
+  var introStatus = document.getElementById('introStatus');
+  var introSkip = document.getElementById('introSkip');
+  var sidebar = document.getElementById('sidebar');
+  var backdrop = document.getElementById('backdrop');
+  var sceneList = document.getElementById('sceneList');
+  var searchInput = document.getElementById('searchInput');
+  var clearSearch = document.getElementById('clearSearch');
+  var listCount = document.getElementById('listCount');
+  var sceneNameEl = document.getElementById('sceneName');
+  var sceneIndexEl = document.getElementById('sceneIndex');
+  var bottomNameEl = document.getElementById('bottomName');
+  var bottomCountEl = document.getElementById('bottomCount');
+  var progressEl = document.getElementById('sceneProgress');
+  var rotateBtn = document.getElementById('rotateBtn');
+  var fullBtn = document.getElementById('fullBtn');
+  var helpBtn = document.getElementById('helpBtn');
+  var helpPanel = document.getElementById('helpPanel');
+  var aboutBtn = document.getElementById('aboutBtn');
+  var menuBtn = document.getElementById('menuBtn');
+  var fileWarning = document.getElementById('fileWarning');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.scene-card'));
+
+  var isFile = location.protocol === 'file:';
+  if (isFile) fileWarning.hidden = false;
+
+  function getHashScene() {
+    var raw = location.hash.replace(/^#/, '');
+    if (!raw) return null;
+    var m = raw.match(/(?:^|&)s=([^&]+)/);
+    if (!m) return null;
+    var id;
+    try { id = decodeURIComponent(m[1]); } catch (e) { return null; }
+    return SCENES[id] ? id : null;
+  }
+
+  var firstScene = getHashScene() || (SCENES[DATA.firstScene] ? DATA.firstScene : ORDER[0]);
+
+  function hfovFor(mfov, aspect) {
+    if (aspect >= 1) return Math.min(120, Math.max(45, mfov));
+    var h = 2 * Math.atan(Math.tan(mfov * Math.PI / 360) * aspect) * 180 / Math.PI;
+    return Math.min(120, Math.max(40, h));
+  }
+
+  var aspect = Math.max(0.2, panoramaEl.clientWidth / Math.max(1, panoramaEl.clientHeight));
+  var pannellumScenes = {};
+  ORDER.forEach(function (id) {
+    var s = SCENES[id];
+    pannellumScenes[id] = {
+      type: 'cubemap',
+      cubeMap: s.faces,
+      yaw: s.yaw,
+      pitch: s.pitch,
+      hfov: hfovFor(s.mfov, aspect),
+      minHfov: 38,
+      maxHfov: 120,
+      hotSpots: s.hotSpots
+    };
+  });
+
+  if (isFile) {
+    introStatus.innerHTML = '当前以 <b>file://</b> 方式打开，浏览器会拦截本地全景图。<br>请关闭本页，双击 <b>启动.bat</b> 后再打开。';
+    introSkip.textContent = '我已了解，仍要尝试';
+  }
+
+  var viewer = pannellum.viewer('panorama', {
+    default: {
+      firstScene: firstScene,
+      sceneFadeDuration: 550,
+      autoLoad: true,
+      showControls: false,
+      compass: false,
+      backgroundColor: [7, 10, 16],
+      strings: {
+        loadingLabel: '正在加载全景…',
+        loadButtonLabel: '点击进入全景',
+        noPanoramaError: '没有指定全景图。',
+        fileAccessError: '无法读取全景文件：%s',
+        malformedURLError: '全景文件地址有误。',
+        genericWebGLError: '当前浏览器不支持 WebGL，无法显示全景。',
+        textureSizeError: '全景图尺寸超出设备限制（%spx，最大 %spx）。',
+        unknownError: '未知错误，请查看浏览器控制台。'
+      }
+    },
+    scenes: pannellumScenes
+  });
+  window.viewer = viewer;
+
+  var currentId = firstScene;
+  var rotating = false;
+  var introTimer = null;
+
+  function findScene(id) { return SCENES[id]; }
+
+  function updateActiveCard(id) {
+    cards.forEach(function (card) {
+      var on = card.getAttribute('data-scene') === id;
+      card.classList.toggle('active', on);
+      if (on) {
+        card.setAttribute('aria-current', 'true');
+        if (sidebar.classList.contains('open') || window.innerWidth > 860) {
+          try { card.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } catch (e) {}
+        }
+      } else {
+        card.removeAttribute('aria-current');
+      }
+    });
+  }
+
+  function updateUI(id) {
+    var s = findScene(id);
+    if (!s) return;
+    currentId = id;
+    sceneNameEl.textContent = s.name;
+    sceneIndexEl.textContent = String(s.index).padStart(2, '0');
+    bottomNameEl.textContent = s.name;
+    bottomCountEl.textContent = s.index + ' / ' + TOTAL;
+    progressEl.style.width = (s.index / TOTAL * 100).toFixed(2) + '%';
+    updateActiveCard(id);
+    document.title = s.name + ' · 江苏电子信息职业学院 720°全景';
+    try {
+      history.replaceState(null, '', '#s=' + encodeURIComponent(id));
+    } catch (e) {}
+  }
+
+  viewer.on('scenechange', function (id) {
+    updateUI(id);
+  });
+
+  viewer.on('load', function () {
+    if (introTimer) { clearTimeout(introTimer); introTimer = null; }
+    introEl.classList.add('hidden');
+    setTimeout(function () {
+      if (introEl.parentNode) introEl.style.display = 'none';
+    }, 700);
+  });
+
+  viewer.on('mousedown', function () {
+    if (rotating) toggleRotate(false);
+  });
+  viewer.on('touchstart', function () {
+    if (rotating) toggleRotate(false);
+  });
+
+  var errShown = false;
+  viewer.on('error', function () {
+    if (errShown) return;
+    errShown = true;
+    introStatus.innerHTML = isFile
+      ? '请双击 <b>启动.bat</b>，通过本地 HTTP 地址打开页面。'
+      : '全景加载失败。请刷新页面，并检查网络连接及浏览器的 WebGL 支持。';
+    introSkip.hidden = false;
+  });
+
+  function toggleRotate(force) {
+    rotating = typeof force === 'boolean' ? force : !rotating;
+    if (rotating) {
+      viewer.startAutoRotate(-1.2);
+    } else {
+      viewer.stopAutoRotate();
+    }
+    rotateBtn.classList.toggle('active', rotating);
+    rotateBtn.setAttribute('aria-pressed', rotating ? 'true' : 'false');
+  }
+
+  function toggleFullscreen() {
+    var el = document.getElementById('stage');
+    var doc = document;
+    var isFull = doc.fullscreenElement || doc.webkitFullscreenElement || doc.msFullscreenElement;
+    if (isFull) {
+      (doc.exitFullscreen || doc.webkitExitFullscreen || doc.msExitFullscreen || function () {}).call(doc);
+    } else {
+      var fn = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
+      if (fn) {
+        try { fn.call(el); } catch (e) { viewer.toggleFullscreen(); }
+      } else {
+        viewer.toggleFullscreen();
+      }
+    }
+  }
+
+  rotateBtn.addEventListener('click', function () { toggleRotate(); });
+  fullBtn.addEventListener('click', toggleFullscreen);
+
+  function openHelp() { helpPanel.hidden = false; }
+  function closeHelp() { helpPanel.hidden = true; }
+  helpBtn.addEventListener('click', openHelp);
+  aboutBtn.addEventListener('click', openHelp);
+  helpPanel.addEventListener('click', function (e) {
+    if (e.target === helpPanel || e.target.hasAttribute('data-close')) closeHelp();
+  });
+
+  document.addEventListener('fullscreenchange', function () {
+    var on = !!(document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement);
+    fullBtn.classList.toggle('active', on);
+  });
+
+  function closeSidebar() {
+    sidebar.classList.remove('open');
+    backdrop.classList.remove('show');
+  }
+  menuBtn.addEventListener('click', function () {
+    sidebar.classList.toggle('open');
+    backdrop.classList.toggle('show', sidebar.classList.contains('open'));
+  });
+  backdrop.addEventListener('click', closeSidebar);
+
+  cards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      var id = card.getAttribute('data-scene');
+      if (id && id !== viewer.getScene()) viewer.loadScene(id);
+      if (window.innerWidth <= 860) closeSidebar();
+    });
+  });
+
+  function applyFilter() {
+    var q = searchInput.value.trim().toLowerCase();
+    var visible = 0;
+    cards.forEach(function (card) {
+      var hit = !q || (card.getAttribute('data-name') || '').toLowerCase().indexOf(q) !== -1;
+      card.hidden = !hit;
+      if (hit) visible++;
+    });
+    listCount.textContent = visible;
+    clearSearch.classList.toggle('show', !!q);
+    var empty = document.getElementById('emptyState');
+    if (!visible && !empty) {
+      empty = document.createElement('div');
+      empty.id = 'emptyState';
+      empty.className = 'empty';
+      empty.textContent = '没有找到相关场景';
+      sceneList.appendChild(empty);
+    } else if (visible && empty) {
+      empty.remove();
+    }
+  }
+  searchInput.addEventListener('input', applyFilter);
+  clearSearch.addEventListener('click', function () {
+    searchInput.value = '';
+    applyFilter();
+    searchInput.focus();
+  });
+
+  function goRelative(delta) {
+    var idx = ORDER.indexOf(currentId);
+    if (idx < 0) idx = 0;
+    var next = (idx + delta + TOTAL) % TOTAL;
+    viewer.loadScene(ORDER[next]);
+  }
+
+  document.addEventListener('keydown', function (e) {
+    var tag = (e.target && e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea') return;
+    if (e.key === 'r' || e.key === 'R') { e.preventDefault(); toggleRotate(); }
+    else if (e.key === 'f' || e.key === 'F') { e.preventDefault(); toggleFullscreen(); }
+    else if (e.key === 'n' || e.key === 'N') { e.preventDefault(); goRelative(1); }
+    else if (e.key === 'p' || e.key === 'P') { e.preventDefault(); goRelative(-1); }
+    else if (e.key === 'Escape') { closeHelp(); closeSidebar(); }
+  });
+
+  window.addEventListener('hashchange', function () {
+    var id = getHashScene();
+    if (id && id !== viewer.getScene()) viewer.loadScene(id);
+  });
+
+  introTimer = setTimeout(function () {
+    introStatus.innerHTML = isFile
+      ? '请双击 <b>启动.bat</b>，通过本地 HTTP 地址打开页面。'
+      : '加载时间比预期长…<br>请检查网络连接，或刷新页面重试。';
+    introSkip.hidden = false;
+  }, 12000);
+
+  introSkip.addEventListener('click', function () {
+    introEl.classList.add('hidden');
+    setTimeout(function () { introEl.style.display = 'none'; }, 700);
+  });
+
+  updateUI(firstScene);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/tour_data.json
+  Cache-Control: public, max-age=0, must-revalidate
+/images/*
+  Cache-Control: public, max-age=86400
+/thumbs/*
+  Cache-Control: public, max-age=86400
+/cover.jpg
+  Cache-Control: public, max-age=86400
